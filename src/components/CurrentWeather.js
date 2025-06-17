@@ -9,7 +9,7 @@ const Weather = () => {
   const [currentLocationWeather, setCurrentLocationWeather] = useState(null);
   const [dateTime, setDateTime] = useState('');
 
-  const WEATHER_API_KEY = '87e72084b5a88b02dd3cc9a3bcf4de25';
+  const WEATHER_API_KEY = '220287e72084b5a88b02dd3cc9a3bcf4de25';
 
   useEffect(() => {
     if (navigator.geolocation) {
