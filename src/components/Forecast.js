@@ -5,7 +5,7 @@ import WeatherChart from "./WeatherChart";
 const Forecast = () => {
   const [forecast, setForecast] = useState([]);
   const [city, setCity] = useState("");
-  const apiKey = "220287e72084b5a88b02dd3cc9a3bcf4de25";
+  const apiKey = "87e72084b5a88b02dd3cc9a3bcf4de25";
 
   const getForecast = async () => {
     try {
